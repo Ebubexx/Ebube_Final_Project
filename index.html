@@ -29,51 +29,51 @@
   height: 700px;  
   }
   
-    .header {
+  .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  height: 20px;
+  margin-bottom: 30px;
+    }
+
+  .logo {
+   font-size: 18px;
+   font-family: "Bai Jamjuree", serif;
+   font-weight: 400;
+   font-style: normal;
+   margin-left: 10px
+  }
+
+  .nav {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    margin-top: 20px;
-    background-color: black;
+    align-items: baseline;
+    gap: 10px;
+  }
+
+  .nav-label {
+    font-size: 16px;
+    white-space: nowrap;
+    font-family: "Bai Jamjuree", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  ul a {
+    text-decoration: none;
+    text-align: center;
     color: white;
-    height: 20px;
-    margin-bottom: 30px;
-      }
-      
-    .logo {
-     font-size: 18px;
-     font-family: "Bai Jamjuree", serif;
-     font-weight: 400;
-     font-style: normal;
-     margin-left: 10px
-    }
-  
-    .nav {
-      display: flex;
-      align-items: baseline;
-      gap: 10px;
-    }
-  
-    .nav-label {
-      font-size: 16px;
-      white-space: nowrap;
-      font-family: "Bai Jamjuree", serif;
-      font-weight: 400;
-      font-style: normal;
-    }
-      
-    ul a {
-      text-decoration: none;
-      text-align: center;
-      color: white;
-      margin: 5px;
-      text-transform: uppercase;
-      font-family: "Bai Jamjuree", serif;
-      font-weight: 400;
-      font-style: normal;
-      margin-right: 20px;
-    }
+    margin: 5px;
+    text-transform: uppercase;
+    font-family: "Bai Jamjuree", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: 20px;
+  }
   
   #intro {
     display: flex;
@@ -105,7 +105,7 @@
   
   .subtitle {
     font-size: 60px;
-    margin-left: 400px;
+    margin-left: 700px;
     margin-top: 0;
     font-family: "Bai Jamjuree", serif;
     font-weight: 300;
@@ -160,7 +160,6 @@
     text-align: justify;
     text-justify: inter-word;
     margin-right: 40px;
-    margin-top: 0;
   }
   
    .chapter-2-container {
@@ -190,9 +189,9 @@
   
   .text-left {
     float: left;
-    width: 300px;
+    width: 45%;
     font-family: "Roboto Mono", monospace;
-    font-size: 15px;
+    font-size: 19px;
     font-weight: 400;
     font-style: normal;
     text-align: justify;
@@ -201,9 +200,9 @@
   
   .text-right {
     float: left;
-    width: 300px;
+    width: 45%;
     font-family: "Roboto Mono", monospace;
-    font-size: 15px;
+    font-size: 19px;
     font-weight: 400;
     font-style: normal;
     text-align: justify;
