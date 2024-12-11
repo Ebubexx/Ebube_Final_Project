@@ -234,7 +234,7 @@
     font-style: normal;
     text-align: justify;
     text-justify: inter-word;
-    margin-left: 65px;
+    margin-left: 55px;
     margin-bottom: 0;
     padding: 0;
   }
@@ -277,55 +277,120 @@
   .table-container {
     text-align: center;
     max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
   }
   
   .table-title {
     font-family: "Roboto Mono", monospace;
-    font-size: large;
+    font-size: 1.5rem;
     font-weight: 400;
     font-style: normal;
-    text-align: justify;
+    text-align: center;
+    border: 3px solid #ffff;
+    padding: 10px 0;
   }
   
   table {
     width: 100%;
     border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #2c2c2c transparent;
+    color: #fff;
+    overflow: hidden;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
   }
   
   td {
     padding: 10px;
     text-align: center;
-    border: 1px solid #444;
+    border: 3px solid #ffff;
   }
   
-  img {
+  .table-img {
     width: 80%;
-    height: 200px;
+    height: 700px;
+    max-height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
   }
   
+  .caption {
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    }
   
-  
-    /*
-  #chapter-4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 50%;
-  }
-  
-  .chapter-4-container {
-    text-align: center;
+ .chapter-4-container {
+    text-align: left;
     border: medium solid #80102F;
     border-radius: 20px;
     background-color: #2B2B2B transparent;
     margin: 40px 30px;
   }
    
-  .chapter-4-title {
-    text-align: left;
-    margin-left: 50px;
-  } */
+   .chapter-4-title {
+    font-family: "Inter", serif;
+    font-size: 2em;
+    font-weight: semi-bold;
+    font-style: normal;
+    margin-top: 30px;
+    margin-bottom: 0;
+    margin-left: 40px;
+  }
+  
+  .chapter-4-content {
+    width: 90%;
+    font-family: "Roboto Mono", monospace;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .footer {
+    border-top: medium solid #80102F;
+  }
+  
+  .left-side {
+    float: left;
+  }
+  
+  .right-side {
+    float: right;
+    margin-right: 200px;
+    margin-top: 20px;
+  }
+  
+  .footer-header {
+    font-size: 50px;
+    margin-left: 80px;
+    margin-top: 40px;
+    font-family: "Bai Jamjuree", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .footer-links {
+    font-family: "Bai Jamjuree", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .footer-links a:link {
+    color: white;
+  }
+  
+  .footer-links a:hover {
+    color: #80102F;
+  }
   
 </style>
 </head>
@@ -395,39 +460,45 @@
     </div>
     
     <div class="table-container">
+       <div class="table-title">AfroxDance Performances</div>
       <table>
-        <th class="table-title">AfroxDance Performances</th>
         <tr>
           <td>
-            <img src="cultural-caravan.jpeg" alt="cultural caravan">
+            <img class="table-img" src="cultural-caravan.jpeg" alt="cultural caravan">
             <div class="caption">Cultural Caravan</div>
           </td>
           <td>
-            <img src="afrovibes.jpeg" alt="Afrovibes festival">
+            <img class="table-img" src="afrovibes.jpeg" alt="Afrovibes festival">
             <div class="caption">Afrovibes</div>
           </td>
           <td>
-            <img src="Liftoff.jpeg" alt="liftoff">
+            <img class="table-img" src="Liftoff.jpeg" alt="liftoff">
             <div class="caption">LiftOff Event</div>
           </td>
           <td>
-            <img src="traces-2023.jpeg" alt="Traces 2023">
+            <img class="table-img" src="traces-2023.jpeg" alt="Traces 2023">
             <div class="caption">Traces 2023</div>
           </td>
         </tr>
       </table>
     </div>
   </div>
-  
-<!--    
-<div id="chapter-4">
+    
+
   <div class="chapter-4-container">
   <h2 class="chapter-4-title">What's Next</h2>
-  <p>Though I’ve taken a break from AfroxDance, I haven’t stopped dancing. Over the past year, I’ve been taking drop-in classes at The Studio North in Toronto with some friends from AfroxDance. It was refreshing to be surrounded by people who shared the same love for dance, and some who were even better than me. The challenge was tough but incredibly fulfilling. In the coming year, I plan to take more classes and track my progress. I also want to focus more on my health to become the best version of myself. I’m not aiming to be discovered or become a professional dancer—my goal is simply to be better than I was. I also want to explore other styles, like salsa and hip-hop, and make dance a bigger part of my lifestyle rather than just a hidden hobby. Ultimately, I hope to return to AfroxDance and give back to the community, helping others the way it helped me.
-
-  If you want to follow me on this journey, you can find me on tiktok or send me an  mailto: email :)</p>
+  <p class="chapter-4-content">Though I’ve taken a break from AfroxDance, I haven’t stopped dancing. Over the past year, I’ve been taking drop-in classes at The StudioNorth in Toronto with some friends from AfroxDance. It was refreshing to be surrounded by people who shared the same love for dance, and dancers who are better than me. The classes are tough but incredibly fulfilling. In the coming year, I plan to take more classes and document my progress on Tiktok. I also want to focus more on my health to become the best version of myself. The goal is not to be ‘discovered’ but to rediscover my love for dance and be a better version of myself. I also want to explore other styles, like salsa and hip-hop, and make dance a bigger part of my lifestyle rather than just a hidden hobby. Ultimately, I hope to return to AfroxDance and give back to the community, helping others the way it helped me.</p>
   </div>
-</div> -->
+  
+  <div class="footer">
+    <div class="left-side"> <h2 class="footer-header">Join the journey!</h2> </div>
+    <div class="right-side">
+      <p class="footer-links">Send me an <a href="mailto:embanefo@uwaterloo.ca" target="_blank"></a><u>email</u></p>
+      <p class="footer-links">Follow me on <a href="https://www.instagram.com/ebubem_/" target="_blank">instagram</a></p>
+      <p class="footer-links">Follow me on <a href="https://www.tiktok.com/@ebubemm" target="_blank">Tiktok</a></p>
+    </div>
+  </div>
+
   
 </body>
 </html>
